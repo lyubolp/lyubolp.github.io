@@ -1,0 +1,127 @@
+﻿body {
+	font-family:'Segoe UI';
+	font-size:1vw;
+}
+#topBar
+{
+	width:100vw;
+	height:7vh;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-color:#303030;
+}
+.menuItem
+{
+	width:10vw;
+	height:7vh;
+	background-color:#303030;
+	line-height:7vh;
+	color:white;
+	text-align:center;
+	border-radius:3vh;
+}
+#menuItem1{
+	position:absolute;
+	left:25vw;
+	top:0vh;
+	transition: background-color 1s, color 1s;
+}
+
+#menuItem1:hover {
+	color: #A8A1A1;
+	background-color: #1D1C1C;
+}
+
+#menuItem2 {
+	position: absolute;
+	left: 35vw;
+	top: 0vh;
+	transition: background-color 1s, color 1s;
+}
+
+#menuItem2:hover {
+	color: #A8A1A1;
+	background-color: #1D1C1C;
+}
+
+#menuItem3 {
+	position: absolute;
+	left: 45vw;
+	top: 0vh;
+	transition: background-color 1s, color 1s;
+}
+
+#menuItem3:hover {
+	color: #A8A1A1;
+	background-color: #1D1C1C;
+}
+
+#menuItem4 {
+	position: absolute;
+	left: 55vw;
+	top: 0vh;
+	transition: background-color 1s, color 1s;
+}
+
+#menuItem4:hover {
+	color: #A8A1A1;
+	background-color: #1D1C1C;
+}
+#menuItem5 {
+    position: absolute;
+    left: 65vw;
+    top: 0vh;
+    transition: background-color 1s, color 1s;
+}
+
+#menuItem5:hover {
+    color: #A8A1A1;
+    background-color: #1D1C1C;
+}
+
+#secondaryMenu
+{
+	position: absolute;
+	left: 0vh;
+	top: 7vh;
+	background-color: #1D1C1C;
+	height: 20vh;
+	width:100vw;
+	z-index: 4;
+}
+.box
+{
+	width:25vw;
+	height: 25vw;
+	background-color: #706F6F;
+}
+#box1
+{
+	position: absolute;
+	left:0vw;
+	top:7vh;
+}
+#box2
+{
+	position: absolute;
+	left:25vw;
+	top:7vh;
+}
+#box3
+{
+	position: absolute;
+	left:50vw;
+	top:7vh;
+}
+#box4
+{
+	position: absolute;
+	left:75vw;
+	top:7vh;
+}
+.homeIMG
+{
+	width:100%;
+	transition: filter 0.5s;
+}
